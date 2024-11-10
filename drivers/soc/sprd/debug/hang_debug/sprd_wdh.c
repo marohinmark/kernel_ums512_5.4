@@ -75,8 +75,8 @@ struct cpumask *sprd_cpu_feed_bitmap;
 extern unsigned int cpu_feed_mask;
 extern unsigned int cpu_feed_bitmap;
 #else
-static unsigned int cpu_feed_mask;
-static unsigned int cpu_feed_bitmap;
+//static unsigned int cpu_feed_mask;
+//static unsigned int cpu_feed_bitmap;
 #endif
 
 struct gicc_data {
